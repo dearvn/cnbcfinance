@@ -41,6 +41,6 @@ pip install -r requirements.txt
 cointrol/manage.py migrate
 
 # Install cnbcfinance-*
-pip install -e ./cnbcfinance
+pip install -e .
 
 ```
