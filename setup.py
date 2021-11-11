@@ -12,7 +12,7 @@ from shutil import rmtree
 from setuptools import find_packages, setup, Command
 
 # Package meta-data.
-NAME = 'src'
+NAME = 'cnbcfinance'
 DESCRIPTION = 'The package fetch stock data from cnbc.'
 URL = 'https://github.com/dearvn/cnbcfinance'
 EMAIL = 'donald.nguyen.it@gmail.com'
