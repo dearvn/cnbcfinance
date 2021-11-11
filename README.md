@@ -1,6 +1,6 @@
 # Information
 This package to fetch data from cnbc
-## History
+## Get History by interval
 * Get data by interval and period
 
 ## Get Quote
@@ -20,7 +20,7 @@ Make sure you have the following software installed on your system:
 
 #### 1.1 Install `cnbcfinance`
 ```bash
-mkdir Cointrol && cd Cointrol
+cd cnbcfinance
 
 # Create an isolated Python virtual environment
 pip install virtualenv
