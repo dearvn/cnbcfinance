@@ -1,1 +1,1 @@
-from .cnbcfinance import *
+from .cnbc import *

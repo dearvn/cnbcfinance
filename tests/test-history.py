@@ -1,9 +1,10 @@
 from __future__ import (absolute_import, division, print_function,
                         unicode_literals)
-from cnbcfinance import get_history_df
+from cnbcfinance import Cnbc
 
 if __name__ == '__main__':
-    data = get_history_df('AAPL', '30m')
+    cnbc = Cnbc('AAPL')
+    data = cnbc.get_history_df('5M', proxy='138.201.120.214:1080')
     print(data)
 
 
